@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-09-21T14:25:12.837991+00:00",
+  "primary_view_events": 97,
+  "match_analysis_rows": 18088,
+  "experience_eligible_primary_match_rows": 8502,
+  "model": "provisional pooled logistic g-computation: event + event\u00d7post + log1p prior count + rank + primary role",
+  "standardization_target": "event-specific pre-period eligible match-level covariate distribution",
+  "raw_delta_definition": "eligible-sample post win rate minus eligible-sample pre win rate",
+  "continuing_delta_definition": "eligible-sample both-period users only",
+  "global_model_diagnostics": {
+    "converged": true,
+    "iterations": 15,
+    "ridge_penalty": 1e-06,
+    "negative_log_likelihood_penalized": 5792.920822596843,
+    "mean_log_loss": 0.6813597453134658,
+    "brier_score": 0.24434592394626622,
+    "min_predicted_probability": 1.5480541718066008e-06,
+    "max_predicted_probability": 0.9999936847436985,
+    "max_absolute_coefficient": 13.616285366408219,
+    "gradient_max_abs": 9.245278248688956e-11
+  },
+  "separated_event_period_cells": 2,
+  "minimum_eligible_users_in_an_event_period": 3,
+  "minimum_eligible_matches_in_an_event_period": 4,
+  "median_absolute_standardization_shift_pp": 0.723225599767563,
+  "events_adjustment_at_least_1pp": 36,
+  "events_adjustment_at_least_2pp": 6,
+  "events_adjustment_at_least_5pp": 0,
+  "direction_changed_raw_vs_standardized": 2,
+  "direction_changed_raw_vs_continuing": 20,
+  "composition_adjustment_pairs": 93,
+  "composition_gap_vs_adjustment_pearson": 0.0007731284426106375,
+  "composition_gap_vs_adjustment_spearman": 0.06766434901972487,
+  "figure_counts": {
+    "raw_vs_standardized": 97,
+    "raw_vs_continuing": 93,
+    "composition_vs_adjustment": 93
+  },
+  "claim_boundary": "composition-standardized difference; not a true or causal patch effect",
+  "inference": "descriptive first pass; no p-values, confidence intervals, or significance filtering"
+}

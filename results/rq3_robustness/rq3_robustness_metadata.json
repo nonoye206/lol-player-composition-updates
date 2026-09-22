@@ -1,0 +1,110 @@
+{
+  "generated_at_utc": "2026-09-21T14:25:38.294313+00:00",
+  "prespecified_variants": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "S1"
+  ],
+  "primary_events": 97,
+  "bootstrap_reps": 1000,
+  "variant_diagnostics": {
+    "M0": {
+      "converged": true,
+      "iterations": 15,
+      "parameters": 203,
+      "rows": 8502,
+      "ridge": 1e-06,
+      "min_probability": 1.5480541718066008e-06,
+      "max_probability": 0.9999936847436985,
+      "extreme_predictions": 11,
+      "max_absolute_coefficient": 13.616285366408219,
+      "brier_score": 0.24434592394626622
+    },
+    "M1": {
+      "converged": true,
+      "iterations": 15,
+      "parameters": 212,
+      "rows": 8502,
+      "ridge": 1e-06,
+      "min_probability": 1.6732866110249982e-06,
+      "max_probability": 0.9999941656567871,
+      "extreme_predictions": 11,
+      "max_absolute_coefficient": 13.139747959138388,
+      "brier_score": 0.243992459241744
+    },
+    "M2": {
+      "converged": true,
+      "iterations": 15,
+      "parameters": 206,
+      "rows": 8502,
+      "ridge": 1e-06,
+      "min_probability": 1.6116215950534283e-06,
+      "max_probability": 0.9999940279795658,
+      "extreme_predictions": 11,
+      "max_absolute_coefficient": 13.669745824294083,
+      "brier_score": 0.2442505749436871
+    },
+    "M3": {
+      "converged": true,
+      "iterations": 15,
+      "parameters": 203,
+      "rows": 8502,
+      "ridge": 1e-06,
+      "min_probability": 1.6540870424386925e-06,
+      "max_probability": 0.9999918270844698,
+      "extreme_predictions": 11,
+      "max_absolute_coefficient": 13.836856894939382,
+      "brier_score": 0.2350984384446968
+    },
+    "M4": {
+      "converged": true,
+      "iterations": 4,
+      "parameters": 203,
+      "rows": 8502,
+      "ridge": 1.0,
+      "min_probability": 0.1378568984745442,
+      "max_probability": 0.7227758135305072,
+      "extreme_predictions": 0,
+      "max_absolute_coefficient": 1.1473671432908956,
+      "brier_score": 0.24466001198901707
+    },
+    "M5": {
+      "converged": true,
+      "iterations": 6,
+      "parameters": 106,
+      "rows": 8502,
+      "ridge": 1e-06,
+      "min_probability": 0.07081282496978762,
+      "max_probability": 0.9477305187479371,
+      "extreme_predictions": 0,
+      "max_absolute_coefficient": 2.9039343750598325,
+      "brier_score": 0.21798429966056743,
+      "propensity_clipping": "0.02-0.98",
+      "max_post_odds_weight": 12.985146835161267,
+      "extreme_propensities_before_clipping_not_stored": true
+    },
+    "S1": {
+      "converged": true,
+      "iterations": 5,
+      "parameters": 203,
+      "rows": 10136,
+      "ridge": 1e-06,
+      "min_probability": 0.1953491507816012,
+      "max_probability": 0.8472982187987741,
+      "extreme_predictions": 0,
+      "max_absolute_coefficient": 2.058937466850993,
+      "brier_score": 0.24527910839176228
+    }
+  },
+  "continuing_match_weighted_flips": 20,
+  "continuing_player_balanced_flips": 35,
+  "continuing_events_with_paired_eligible_players": 93,
+  "original_match_flips_remaining_player_balanced": 17,
+  "continuing_events_ci_width_at_least_20pp": 90,
+  "continuing_events_ci_includes_zero": 81,
+  "no_significance_hunting": true
+}

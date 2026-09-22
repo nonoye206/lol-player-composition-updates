@@ -1,0 +1,8 @@
+﻿estimator,median_absolute_adjustment_pp,events_ge_2pp,events_ge_5pp,direction_flips,spearman_with_experience_gap
+M0 Baseline,0.72,6,0,2,0.068
+M1 Post interactions,0.68,10,0,3,-0.049
+M2 Familiarity spline,0.72,6,0,2,0.035
+M3 Player-period weighted,0.80,15,1,2,0.024
+M4 Ridge*,1.65,41,18,3,-0.018
+M5 Weighting,0.54,14,0,3,-0.053
+S1 50-match window,0.81,6,0,2,0.016

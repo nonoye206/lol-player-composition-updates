@@ -1,0 +1,122 @@
+{
+  "generated_at_utc": "2026-09-21T14:24:46.738312+00:00",
+  "rq": "RQ1 composition only; no performance outcomes read or analyzed",
+  "period_definition": "pre = validated immediately preceding API patch; post = event patch; no observed-data fallback",
+  "season_boundary_predecessors": {
+    "16.1": "15.24"
+  },
+  "pre_patch_validation": {
+    "events_checked": 258,
+    "events_with_expected_pre_patch_observed": 258,
+    "events_missing_expected_pre_patch": 0,
+    "cross_patch_fallbacks": 0
+  },
+  "familiarity_primary_window": 100,
+  "familiarity_sensitivity_window_retained": 50,
+  "familiarity_anchor": "immediately before the player's first focal-champion match in that period",
+  "rank_role_basis": "fixed cohort rank stratum and primary role",
+  "change_direction": "left blank because the official event table has no validated direction field",
+  "cohort": {
+    "source": "anonymized cohort metadata",
+    "players": 500
+  },
+  "input_sha256": {
+    "matches": "6822535C1982093788125095AE5A1762F983A05B14F1C4258BA097717552E75F",
+    "events": "625C993E55E38C7430C89EA525C754D9D3A093FDF88ED96D18A07ABA7E950EC0"
+  },
+  "input_match_rows_after_deduplication": 141738,
+  "duplicate_player_match_rows_removed": 0,
+  "official_events": 258,
+  "player_period_rows": 5227,
+  "events_with_pre_and_post_observed_users": 229,
+  "events_with_familiarity_pre_and_post": 220,
+  "overview_metrics": {
+    "post_only_among_union": {
+      "n": 232,
+      "median": 0.375,
+      "p25": 0.29316888045540795,
+      "p75": 0.5
+    },
+    "delta_observed_new_pp": {
+      "n": 220,
+      "median": 0.0,
+      "p25": -16.666666666666668,
+      "p75": 16.666666666666668
+    },
+    "rank_tvd": {
+      "n": 229,
+      "median": 0.26666666666666666,
+      "p25": 0.17222222222222222,
+      "p75": 0.38888888888888884
+    },
+    "role_tvd": {
+      "n": 229,
+      "median": 0.26573426573426573,
+      "p25": 0.18181818181818182,
+      "p75": 0.4
+    }
+  },
+  "coverage_stratified": [
+    {
+      "minimum_users_each_period": 1,
+      "events": 229,
+      "median_post_only_share": 0.375,
+      "median_absolute_observed_new_change_pp": 16.666666666666668,
+      "median_rank_tvd": 0.26666666666666666,
+      "median_role_tvd": 0.26573426573426573,
+      "events_absolute_observed_new_change_at_least_10pp": 146,
+      "events_rank_tvd_at_least_0_2": 159,
+      "events_role_tvd_at_least_0_2": 155
+    },
+    {
+      "minimum_users_each_period": 5,
+      "events": 172,
+      "median_post_only_share": 0.36666666666666664,
+      "median_absolute_observed_new_change_pp": 16.614420062695924,
+      "median_rank_tvd": 0.23273809523809524,
+      "median_role_tvd": 0.2236111111111111,
+      "events_absolute_observed_new_change_at_least_10pp": 109,
+      "events_rank_tvd_at_least_0_2": 108,
+      "events_role_tvd_at_least_0_2": 103
+    },
+    {
+      "minimum_users_each_period": 10,
+      "events": 97,
+      "median_post_only_share": 0.3548387096774194,
+      "median_absolute_observed_new_change_pp": 12.82051282051282,
+      "median_rank_tvd": 0.2,
+      "median_role_tvd": 0.19999999999999996,
+      "events_absolute_observed_new_change_at_least_10pp": 54,
+      "events_rank_tvd_at_least_0_2": 49,
+      "events_role_tvd_at_least_0_2": 48
+    },
+    {
+      "minimum_users_each_period": 20,
+      "events": 17,
+      "median_post_only_share": 0.35135135135135137,
+      "median_absolute_observed_new_change_pp": 15.818181818181817,
+      "median_rank_tvd": 0.15,
+      "median_role_tvd": 0.1617391304347826,
+      "events_absolute_observed_new_change_at_least_10pp": 9,
+      "events_rank_tvd_at_least_0_2": 2,
+      "events_role_tvd_at_least_0_2": 4
+    }
+  ],
+  "higher_support_definition": "n_pre_users >= 10 and n_post_users >= 10",
+  "higher_support_events": 97,
+  "figure_event_counts": {
+    "overall": {
+      "post_only_among_union": 232,
+      "delta_observed_new_pp": 220,
+      "rank_tvd": 229,
+      "role_tvd": 229
+    },
+    "higher_support": {
+      "post_only_among_union": 97,
+      "delta_observed_new_pp": 97,
+      "rank_tvd": 97,
+      "role_tvd": 97
+    },
+    "support_scatter_events": 229
+  }
+}

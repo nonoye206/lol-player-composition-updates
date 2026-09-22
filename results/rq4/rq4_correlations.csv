@@ -1,0 +1,9 @@
+﻿predictor,label,n_events,pearson,spearman
+post_only_share_union,Post-only share among pre/post union,97,0.12748616831720985,0.12286146220527658
+abs_delta_observed_new_pp,Absolute observed-new share change (pp),97,-0.016702323490074337,-0.09483294277698183
+familiarity_wasserstein_log1p,Post-only vs continuing familiarity Wasserstein (log1p),93,0.0007731284426106523,0.06766434901972486
+rank_tvd,Rank TVD,97,0.0605807817656128,0.08054940071129657
+role_tvd,Role TVD,97,0.03207764008750629,0.030494399830542102
+event_support,Minimum eligible users across periods,97,-0.28292204858593434,-0.3296695556251284
+log1p_event_support,Log1p minimum eligible users across periods,97,-0.35603437312696334,-0.3296695556251284
+player_match_ess,Minimum player-match ESS across periods,97,-0.20028662640904285,-0.21119625498567393

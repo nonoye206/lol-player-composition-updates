@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-09-21T14:25:00.271864+00:00",
+  "rq": "RQ2 prior champion experience composition; no performance outcomes",
+  "primary_window": 100,
+  "sensitivity_window": 50,
+  "higher_support_definition": "RQ1 higher-support view: n_pre_users >= 10 and n_post_users >= 10",
+  "direction_rule": {
+    "basis": "delta mean log1p(prior champion count)",
+    "threshold": 0.1,
+    "lower": "delta <= -0.10",
+    "stable": "-0.10 < delta < 0.10",
+    "higher": "delta >= 0.10"
+  },
+  "event_rows": 516,
+  "higher_support_primary_events": 97,
+  "primary_direction_counts": {
+    "toward_lower_experience": 26,
+    "toward_higher_experience": 42,
+    "approximately_stable": 29
+  },
+  "window_comparable_higher_support_events": 97,
+  "direction_agreement_events": 64,
+  "same_signed_direction_events": 77,
+  "post_only_vs_both_comparable_events": 93,
+  "events_post_only_lower_mean_log1p": 92,
+  "median_scatter_events": 97,
+  "pooled_post_period_plot": {
+    "post_only_n": 636,
+    "both_n": 559,
+    "post_only_median": 0.0,
+    "both_median": 5
+  },
+  "interpretation_limits": [
+    "Pre-to-post familiarity is time-varying: continuing users may accumulate focal-champion matches between periods.",
+    "The pooled ECDF weights player-event observations; one player may contribute to multiple champion-patch events.",
+    "The event-level post-only versus both comparison is descriptive and does not explain why players selected a champion."
+  ]
+}

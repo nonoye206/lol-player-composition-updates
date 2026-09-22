@@ -1,0 +1,2 @@
+﻿converged,iterations,ridge_penalty,negative_log_likelihood_penalized,mean_log_loss,brier_score,min_predicted_probability,max_predicted_probability,max_absolute_coefficient,gradient_max_abs,events,matches
+True,15,1e-06,5792.920822596843,0.6813597453134658,0.24434592394626622,1.5480541718066008e-06,0.9999936847436985,13.616285366408219,9.245278248688956e-11,97,8502

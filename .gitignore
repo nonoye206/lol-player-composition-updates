@@ -1,0 +1,12 @@
+.env
+.env.*
+*.log
+__pycache__/
+*.pyc
+**/private/
+**/raw_cache/
+**/request_log.jsonl
+**/checkpoints/
+**/runs/
+work/
+data/raw/

@@ -1,0 +1,8 @@
+﻿variant,purpose,interpretation_caution,median_absolute_adjustment_pp,events_adjustment_ge_1pp,events_adjustment_ge_2pp,events_adjustment_ge_5pp,direction_flips,correlation_with_rq2_gap_pearson,correlation_with_rq2_gap_spearman,extreme_predicted_probabilities,events_successfully_estimated,converged,max_absolute_coefficient
+M0,baseline pooled outcome regression,,0.7232255997675523,36,6,0,2,0.0007731284426099164,0.06766434901972487,11,97,True,13.616285366408219
+M1,"post interactions with familiarity, rank, and role",,0.6849299335227599,33,10,0,3,-0.09157463152269084,-0.04892423383366656,11,97,True,13.139747959138388
+M2,"piecewise-linear spline familiarity at counts 1, 5, 15",,0.7193609215374597,38,6,0,2,-0.009803645341575231,0.03488406791799708,11,97,True,13.669745824294083
+M3,player-period equal weighting,,0.8003801947969738,40,15,1,2,-0.01595457548706666,0.02378323535555489,11,97,True,13.836856894939382
+M4,ridge-penalized outcome regression,ridge also shrinks event-post contrasts; adjustment includes regularization sensitivity,1.6486266365528515,60,41,18,3,0.03351714534030834,-0.017636000119363792,0,97,True,1.1473671432908956
+M5,inverse-odds weighting to pre composition,post weights clipped through propensity range 0.02-0.98,0.5412364914246002,30,14,0,3,0.018147412531634582,-0.05301244367521112,0,97,True,2.9039343750598325
+S1,50-match familiarity window,,0.8146440711142304,33,6,0,2,-0.015026395415601244,0.01626331652293277,0,97,True,2.058937466850993
